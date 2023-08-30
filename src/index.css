@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* styles.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.tag {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.tag-header {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+.tag-header button {
+  margin-right: 8px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.tag-name {
+  cursor: pointer;
+}
+
+.tag-content {
+  padding: 10px;
+}
+
+.tag-content input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.add-child {
+  display: block;
+  margin: 10px auto;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.export-button {
+  margin-top: 10px;
+}
+
+.export-button button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
